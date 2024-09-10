@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+
+    <title>Desa Simbune</title>
+    <meta content="" name="description" />
+    <meta content="" name="keywords" />
+
+    <!-- Favicons -->
+    <link href="assets/img/utama/logo konawe.png" rel="icon" />
+    <link href="assets/img/utama/logo konawe.png" rel="logo konawe.png" />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+      rel="stylesheet"
+    />
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/glightbox/css/glightbox.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet" />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!-- ======= Header ======= -->
+    <header id="header" class="fixed-top">
+      <div
+        class="container d-flex align-items-center justify-content-lg-between"
+      >
+        <h1 class="logo me-auto me-lg-0">
+          <img
+            src="assets/img/utama/logo kolaka timur.png"
+            alt="Logo koltim.jpeg"
+            height="100px"
+            class="img-fluid"
+          />
+          <a href="index.html" class="judul-logo">Desa<span>Simbune</span></a>
+        </h1>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="index.html" class="logo me-auto me-lg-0"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+        <nav id="navbar" class="navbar order-last order-lg-0">
+          <ul>
+            <li>
+              <a class="nav-link scrollto active" href="index.html">BERANDA</a>
+            </li>
+          </ul>
+          <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav>
+        <!-- .navbar -->
+
+        <!-- <a href="#about" class="get-started-btn scrollto">Get Started</a> -->
+      </div>
+    </header>
+    <!-- End Header -->
+
+
+    <!--==untuk css==-->
+    <style>
+      
+
+
+ /* Mengatur section about */
+
+.pro {
+  padding: 20px;
+  background: black;
+  color: black;
+}
+
+      .main-content {
+        max-width: 800px;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+
+     
+      .about-section h1 {
+        text-align: center;
+        color: black;
+      }
+
+      .about-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+      }
+
+      .about-image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+      }
+
+      .about-image img {
+        max-width: 300px; /* Mengatur ukuran maksimal gambar */
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+      }
+
+      .about-text {
+        background: white;
+      }
+
+      .about-text h2 {
+        color: black;
+        margin-top: 0;
+      }
+
+      .about-text p {
+        line-height: 1.6;
+      }
+
+      /* Mengatur footer */
+      .footer {
+        text-align: center;
+        padding: 10px;
+        background-color: rgba(
+          0,
+          123,
+          255,
+          0.8
+        ); /* Menggunakan warna dengan transparansi */
+        color: #fff;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+      }
+
+      /* Responsivitas */
+      @media (max-width: 768px) {
+        .about-content {
+          gap: 10px;
+        }
+
+        .about-image img {
+          max-width: 80%;
+        }
+      }
+
+      @media (max-width: 480px) {
+        .about-image img {
+          max-width: 100%;
+        }
+      }
+
+      .teks-peta {
+        color: green;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+
+      .peta {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 50px;
+      }
+
+      .main-area {
+        max-width: 800px;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+
+      /* Mengatur section luas wilayah */
+      .area-section h1 {
+        text-align: center;
+        color: #007bff;
+      }
+
+      .area-content {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+      }
+
+      .area-info {
+        text-align: center;
+      }
+
+      .area-info h2 {
+        color: #007bff;
+      }
+
+      .area-info ul {
+        list-style: none;
+        padding: 0;
+      }
+
+      .area-info li {
+        margin-bottom: 10px;
+      }
+
+      .area-map {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+      }
+
+      .area-map img {
+        max-width: 50%;
+        height: auto;
+        border-radius: 10px;
+      }
+
+      /*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
+    </style>
+    <div class="pro">
+      SIMBUNE
+    </div>
+    <main>
+      <main class="main-content">
+        <section class="about-section">
+          <h1>Tentang Kami</h1>
+          <div class="about-content">
+            <div class="about-image">
+              <img src="assets/img/utama/kepala desa simbune.jpeg" alt="Foto Tim" />
+            </div>
+            <div class="about-text">
+             <div class="text-center">
+                <h2>Visi</h2>
+            </div>
+              <p> 
+               "TERWUJUDNYA DESA SIMBUNE YANG ADIL,MAKMUR,AGAMIS,BERMARTABAT, DAN BERDAYA SAING SERTA TRANSPARAN DALAM PENGELOLAAN ANGGARAN PEMBANGUNAN DESA"
+              </p>
+            <div class="text-center">
+              <h2> Misi</h2>
+            </div>
+              <p>
+               UNTUK MEWUJUDKAN VISI KAMI SELAKU KEPALA DESA SIMBUNE JIKA DIBERIKAN KEPERCAYAAN OLEH MASYARAKAT UNTUK MEMIMPIN
+               DESA SIMBUNE KE DEPAN MAKA KAMI MEMILIKI MISI KEDEPAN YANG DI TUANGKAN KEDALAM PROGRAM KERJA DAN RENCAANA KEGIATAN NANTI
+               SELAMA MENJABAT;
+              </p>
+              <P>1. MENINKATKAN  PEMBERDAYAAN SUMBER DAYA MANUSIA DAN PEMBERDAYAAN SUMBER DAYA ALAM YANG ADA DI DESA  SIMBUNE.</P>
+              <P>2. SENANTIASA MENCIPTAKAN KONDISI MASYARAKAT YANG AMAN, TERTIB, RUKUN, DAN DAMAI DALAM KEHIDUPAN MASYARAKAT. </P>
+              <P>3. MENGOPTIMALKAN PENYELENGARAAN PEMERINTAHAN DESA SIMBUNE YANG TRASPARAN DAN AKUNTABEL SERTA PELAYANAN KEPADA MASYARAKAT YANG PRIMA DAN PELAKSANAAN
+                PEMBANGUNAN YANG BERKESINANBUNGAN DAN SENANTIASA MENGEDEPANKAN PARTISIPASI DAN GOTONG ROYONG MASYARAKAT.
+              </P>
+              <P>4.MENYELENGGARAKAN PEMERINTAHAN YANG BERSIH,TERBEBAS DARI KORUPSI DAN BENTUK-BENTUK LAINNYA.</P>
+            <div class="text-center">
+              <h2>SEJARAH DESA</h2>
+            </div>
+              <p>
+                Simbune merupakan Desa di kecamatan Tirawuta,Kabupaten Kolaka Timur, Sulawesi Tenggara, Indonesia.Sebelum menjadi desa, wilayah ini masih berupa hutan belantara dan hanya ditempati beberapa penduduk saja. Namun untuk membuat kesatuan masyarakat hukum yang memiliki batas-batas wilayah yang berwenang untuk mengatur dan mengurus kepentingan masyarakat setempat, berdasarkan asal usul dan adat istiadat setempat yang diakui dan dihormati dalam sistem Pemerintahan Negara Kesatuan Republik Indonesia hingga terbentuk desa ini.
+              </p>
+              <p>
+                Pada Masa Sebelum Kemerdekaan RI Masyarakat Simbune Belum Membentuk Perkampungan, Masih Hidup Di Beberapa Lembah Yakni Lembah Tamosi, Polo-Pololi, Tongambadaaha, Matembinaka, Apangi, Dan Puosu. Setelah Belanda Datang Ke Nusantara Mereka Membuat Jalan Dari Kendari Ke Kolaka. Setelah Indonesia Merdeka Tahun 1945 Masyarakat Yang Ada Di Lembah Tamosi, Polo-Pololi, Tongambadaaha, Matembinaka, Apangi, Dan Puosu Dipindahkan Oleh Pemerintah Sementara Pada Saat Itu Ke Dekat Jalan Poros.
+                <p>
+                  Pada Saat Itu Kampung Simbune Belum Memiliki nama.  Nama Simbune Berasal Dari Gabungan Kata SOMBURE Dan SOMBUNI. Kata  “ SOMBURE Dan SOMBUNI” Lahir Dari Peristiwa Ketika Seorang Pengembara Yang Hendak Ke kolaka Bertanya Kepada Seseorang Yang Sedang Menyapu Menggunakan Tangkai Kelapa/ ( SOMBURE NII ) Spontan Orang Yang Menyapu Tadi Menjawab Ini Kampung “ SOMBURE “. Selang Beberapa Saat Pengembara Tadi Melakukan Perjalanan Dan Bertemu Seorang Yang Sedang Mengamankan Pohon Langsatnya ( SOMBUNI PINISI ) Pengembara Tadi Bertanya Lagi Kalau Kampung Apa Yang Sedang Di lewatinya Spontan Orang Tadi Menjawab Ini Kampung SOMBUNI. Kemudian Dalam Kebingungan Pengembara Tadi Menyebut Kalau Kampung Yang Dilewatinya Adalah Kampung SIMBUNE.
+                <P>
+                  Kepala kampung yang pertama di simbune adalah LAPONDONDO pada tahun 1947 dan kepala kampung ke 2 adalah DURANGA Pada tahun 1950. Nanti pada tahun 1962 terbentuk daerah otonom desa SIMBUNE dangan SK Gubernur Nomor 209 / 1962. Dan kepala desa yang pertama adalah ARIFIN yang menjabat sampai tahun 1980. Pada tahun 1981 diadakan pemilihan desa dan yang terpilih MUTHALIB ABD KADIR. Yang menjabat sampai tahun 1999. Pada tahun 2000 diadakan pemilihan desa yang dimenagkan oleh HERLIS SANDE yang menjabat sampai 2003. Kemudian pada tahun 2003 diadakan pemilihan kepala desa simbune yang Dimenangkan Oleh AMIRULLAH, S.P selanjutnya pada bulan Desember 2016 diadakan pemilihan kepala desa dan dimenangkan oleh saudara SUHARDIN sampai Tahun 2023. Selanjutnya pada bulan Desember 2022 diadakan pemilihan kepala desa dan dimenangkan oleh saudara BASRAN, S.T  untuk memimpin Desa Simbune selama 8 tahun periode 2023-2031.
+                <P>
+                  Desa  Simbune Merupakan Salah Satu Desa Dari 14 Desa Di Kecamatan Tirawuta Kabupaten Kolaka Timur  Yang Berdiri Sejak Tahun 1962 Dengan Luas Wilayah. 60,38 Km² .Desa Ini  Mempunyai Jarak 6 Km Dari Ibu Kota Kecamatan Tirawuta Yakni Rate-Rate.
+                  </P>
+                </P>
+                </P>
+                
+                </p>
+              </p>
+              <h2></h2>
+              <p>
+               
+              </p>
+            </div>
+          </div>
+        </section>
+      </main>
+
+
+    <main class="main-area">
+      <section class="area-section">
+        <div class="area-content">
+          <h1>STRUKTUR ORGANISASI</h1>
+          <div class="area-map">
+            <img src="assets/img/utama/struktur-organisasi-66a07bbeaf622.png" alt="Peta Wilayah" />
+          </div>
+          
+          <div class="area-info">
+            <h2></h2>
+            <p>
+             
+          </div>
+        </div>
+      </section>
+    </main>
+  </main>
+
+   
+
+      <div class="peta">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7960.057816389143!2d121.8735066269016!3d-4.014469987789261!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2d983d8b09b752bb%3A0xe1c0f35bbf270fd6!2sKantor%20Desa%20Simbune!5e0!3m2!1sid!2sid!4v1725704976118!5m2!1sid!2sid" 
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+
+      <main class="main-area">
+        <section class="area-section">
+          <div class="area-content">
+            <h1>Luas Wilayah</h1>
+            <div class="area-map">
+              <img src="assets/img/utama/pasted image 0.png" alt="Peta Wilayah" />
+            </div>
+           
+            <div class="area-info">
+              <h2></h2>
+              <p>
+                Luas wilayah suatu daerah dapat mencakup berbagai jenis
+                informasi seperti luas total, luas lahan pertanian, hutan, dan
+                kawasan pemukiman.
+              </p>
+              <p>Berikut adalah rincian luas wilayah dan data terkait:</p>
+              <ul>
+                <li>Luas 60,38 Km²</li>
+                <li>Jumlah penduduk	1,305 jiwa (2024)</li>
+                <li>Kepadatan ... jiwa/km²</li>
+                <li>Jumlah KK	394 rangkap (2024)</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </main>
+    </main>
+
+    <main class="main-area">
+      <section class="area-section">
+        <div class="area-content"> 
+          <h1>Letak geografis</h1>
+          <div class="area-map">
+            <img src="assets/img/utama/pasted image 0 (1).png" alt="Peta Wilayah" />
+          </div>
+          <div class="area-info">
+            <h2></h2>
+            <p>
+              Desa Simbune adalah desa dari kecamatan Tirawuta  yang berbatasan dengan :
+              Sebelah Utara : Desa Talatak
+              Sebelah Selatan : Desa Poni-Poniki
+              Sebelah Timur : Desa Orawa 
+              Sebelah Barat :Desa Lalingato
+              Desa Simbune  adalah sebuah desa 4 dusun yaitu dusun Satu , dusun Dua ,dusun Tiga dan dusun Empat. Desa Simbune sebagian besar penduduknya memiliki mata pencaharian sebagai petani, disamping itu bermata pencaharian sebagai pedagang, PNS, karyawan swasta, wiraswasta, dll. Dalam 2 tahun terakhir, perkembangan pertanian di wilayah Desa Simbune mengalami kenaikan dalam jumlah maupun kualitas.  
+          </div>
+        </div>
+      </section>
+    </main>
+  </main>
+
+
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
+      <div class="footer-top">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3 col-md-6">
+              <div class="footer-info">
+                <h3>SIMBUNE<span></span></h3>
+                <p>
+                  Jl. POROS POROS KOLAKA-RATE-RATE
+                  <br />
+                  Kecamatan Tirawuta, kabupaten Kolaka Timur,<br />
+                  Simbune 93572.<br />
+                  <br />
+                  <strong>Phone:</strong> 0811-4091027<br />
+                  <strong>Email:</strong> halo@sideku.id<br />
+                </p>
+                <div class="social-links mt-3">
+                  <a
+                    href="https://www.instagram.com/dtarikolot?igsh=MW05aXk2b2F2Yzhkag=="
+                    class="instagram"
+                    target="_blank"
+                    ><i class="bx bxl-instagram"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-5 col-md-5 footer-links">
+              <h4>Menu Tersedia</h4>
+              <ul>
+                <li>
+                  <i class="bx bx-chevron-right"></i> <a href="#">Beranda</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right"></i>
+                  <a href="#">Profil</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right"></i>
+                  <a href="#">FASILITAS DESA</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right"></i>
+                  <a href="#"> DESA</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right"></i>
+                  <a href="#">KEGIATAN</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-lg-4 col-md-6 footer-newsletter">
+              <h4>Kabar Dari Kami</h4>
+              <p>Masukkan email untuk mendapatkan kabar dari kami.</p>
+              <form action="" method="post">
+                <input type="email" name="email" /><input
+                  type="submit"
+                  value="Berlangganan"
+                />
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="copyright">
+          &copy; Copyright <strong><span>Simbune</span></strong
+          >. All Rights Reserved
+        </div>
+        <div class="credits">Designed by <a href="#">SIDEKU.ID</a></div>
+      </div>
+    </footer>
+    <!-- End Footer -->
+
+    <div id="preloader"></div>
+    <a
+      href="#"
+      class="back-to-top d-flex align-items-center justify-content-center"
+      ><i class="bi bi-arrow-up-short"></i
+    ></a>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbz13gxAViE1Id_RRpIOj4A_wDsi9TPRgUMkeKVvx4rUZjTqXuzq_yP-bJxxxGum878F/exec"; // Ganti dengan URL Google Apps Script Anda
+      const form = document.forms["keluhan warga"];
+      const btnKirim = document.querySelector(".btn-kirim");
+      const btnLoading = document.querySelector(".btn-loading");
+      const myAlert = document.querySelector(".my-alert");
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault(); // Mencegah halaman dimuat ulang
+        btnLoading.classList.toggle("d-none");
+        btnKirim.classList.toggle("d-none");
+
+        fetch(scriptURL, {
+          method: "POST",
+          body: new FormData(form),
+        })
+          .then((response) => {
+            btnLoading.classList.toggle("d-none");
+            btnKirim.classList.toggle("d-none");
+            myAlert.classList.toggle("d-none");
+            form.reset();
+            console.log("Sukses!", response);
+            // Tampilkan pesan sukses ke pengguna (opsional)
+          })
+          .catch((error) => {
+            console.error("Kesalahan!", error.message);
+            // Tampilkan pesan kesalahan ke pengguna
+          });
+      });
+    </script>
+  </body>
+</html>
